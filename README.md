@@ -1,14 +1,3 @@
-# 超市管理系统
-
-## 更新
-
->2019-12-09
->
->* 新增删除商品类别同时会删除该类别的所有商品
-
-## 数据库
-
-用户表
 
 t_user：
 
@@ -22,8 +11,6 @@ CREATE TABLE t_user (
 );
 
 ```
-
-商品表：
 
 t_good
 
@@ -43,7 +30,6 @@ CREATE TABLE t_good (
 
 ```
 
-商品类别表：
 
 t_goodtype
 
@@ -56,5 +42,4 @@ CREATE TABLE t_goodType (
 )
 ```
 
-操作记录表：
 
